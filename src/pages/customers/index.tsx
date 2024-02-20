@@ -1,6 +1,5 @@
 import Filter from "@/components/Filter";
 // import Projects from "../Dashboard/Projects"
-import DataTables from "../ui/tables/DataTables";
 import CompanyTable from "@/components/CompanyTable/CompanyTable";
 
 
