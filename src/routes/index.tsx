@@ -514,7 +514,7 @@ const uiRoutes: RoutesProps = {
 				{
 					path: '/ui/tables/data-tables',
 					name: 'Data Tables',
-					element: <DataTables />,
+					element: <DataTables title={''} description={''}/>,
 					route: PrivateRoute,
 				},
 			],
