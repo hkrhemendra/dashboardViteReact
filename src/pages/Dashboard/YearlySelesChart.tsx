@@ -19,7 +19,7 @@ const UsChart = () => {
 		legend: {
 			show: false,
 		},
-		colors: ['#1a2942', '#f13c6e', '#3bc0c3', '#d1d7d973'],
+		colors: ['#1a2942', '#f13c6e', '#0170C1', '#d1d7d973'],
 		labels: ['Team A', 'Team B', 'Team C', 'Team D'],
 	}
 	return (
@@ -67,7 +67,7 @@ const YearlySelesChart = () => {
 				show: false,
 			},
 		},
-		colors: ['#3bc0c3', '#1a2942', '#d1d7d973'],
+		colors: ['#0170C1', '#1a2942', '#d1d7d973'],
 
 		stroke: {
 			curve: 'smooth',

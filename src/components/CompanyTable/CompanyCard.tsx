@@ -3,11 +3,11 @@ function CompanyCard() {
 		'https://images.unsplash.com/photo-1523800378286-dae1f0dae656?q=80&w=1076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
 	return (
 		<div className="d-flex justify-content-around border rounded bg-white my-2">
-			<div className="w-25 p-2">
+			<div className="p-2" style={{height: "150px"}}>
 				<center>
-					<img src={imageLink} width={'80%'} alt="company" />
+					<img src={imageLink} style={{height: "120px"}}  alt="company" />
 				</center>
-			</div>
+			</div> 
 			<div className="fs-5 w-50 d-flex flex-column py-2 justify-content-between ">
 				<div className="text-black">
 					Blockchain Consultant And Architect Course

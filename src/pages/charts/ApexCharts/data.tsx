@@ -348,7 +348,7 @@ export const AreaApexOpt: ApexOptions = {
 		width: 2,
 		curve: 'straight',
 	},
-	colors: ['#3bc0c3'],
+	colors: ['#0170C1'],
 	series: [
 		{
 			name: 'STOCK ABC',
@@ -406,7 +406,7 @@ export const SpilineAreaApexOpt: ApexOptions = {
 		width: 2,
 		curve: 'smooth',
 	},
-	colors: ['#3bc0c3', '#1a2942'],
+	colors: ['#0170C1', '#1a2942'],
 	series: [
 		{
 			name: 'Series 1',
@@ -599,7 +599,7 @@ export const BasicBoxplotOps: ApexOptions = {
 	plotOptions: {
 		boxPlot: {
 			colors: {
-				upper: '#3bc0c3',
+				upper: '#0170C1',
 				lower: '#47ad77',
 			},
 		},
@@ -748,7 +748,7 @@ export const simpleBubbleChartOpts: ApexOptions = {
 			// enabled: false
 		},
 	},
-	colors: ['#3bc0c3', '#edc755', '#fa5c7c'],
+	colors: ['#0170C1', '#edc755', '#fa5c7c'],
 	xaxis: {
 		tickAmount: 12,
 		type: 'category',
@@ -812,7 +812,7 @@ export const secondBubbleChartOpts: ApexOptions = {
 	fill: {
 		type: 'gradient',
 	},
-	colors: ['#3bc0c3', '#47ad77', '#fa5c7c', '#39afd1'],
+	colors: ['#0170C1', '#47ad77', '#fa5c7c', '#39afd1'],
 	xaxis: {
 		tickAmount: 12,
 		type: 'datetime',
@@ -891,7 +891,7 @@ export const apexColumnChartOpts: ApexOptions = {
 		width: 2,
 		colors: ['transparent'],
 	},
-	colors: ['#3bc0c3', '#4489e4', '#33b0e0'],
+	colors: ['#0170C1', '#4489e4', '#33b0e0'],
 	series: [
 		{
 			name: 'Net Profit',
@@ -966,7 +966,7 @@ export const columnWithDataLableOpts: ApexOptions = {
 			colors: ['#304758'],
 		},
 	},
-	colors: ['#3bc0c3'],
+	colors: ['#0170C1'],
 	series: [
 		{
 			name: 'Inflation',
@@ -1127,7 +1127,7 @@ export const LineWithDataLabelOps: ApexOptions = {
 			show: false,
 		},
 	},
-	colors: ['#d03f3f', '#3bc0c3'],
+	colors: ['#d03f3f', '#0170C1'],
 	dataLabels: {
 		enabled: true,
 	},
@@ -1238,7 +1238,7 @@ export const lineColumnChartOpts: ApexOptions = {
 	xaxis: {
 		type: 'datetime',
 	},
-	colors: ['#4489e4', '#3bc0c3'],
+	colors: ['#4489e4', '#0170C1'],
 	yaxis: [
 		{
 			title: {
@@ -1296,7 +1296,7 @@ export const multipleYAxisChartOpts: ApexOptions = {
 			data: [20, 29, 37, 36, 44, 45, 50, 58],
 		},
 	],
-	colors: ['#3bc0c3', '#39afd1', '#fa5c7c'],
+	colors: ['#0170C1', '#39afd1', '#fa5c7c'],
 	xaxis: {
 		categories: [2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016],
 	},
@@ -1374,7 +1374,7 @@ export const multipleYAxisChartOpts: ApexOptions = {
 }
 
 //   Simple Pie Chart
-const colors1 = ['#3bc0c3', '#6c757d', '#4489e4', '#d03f3f', '#edc755']
+const colors1 = ['#0170C1', '#6c757d', '#4489e4', '#d03f3f', '#edc755']
 export const SimplePieOpt: ApexOptions = {
 	chart: {
 		height: 320,
@@ -1426,7 +1426,7 @@ export const SimpleDonutOpt: ApexOptions = {
 		offsetY: 7,
 	},
 	labels: ['Series 1', 'Series 2', 'Series 3', 'Series 4', 'Series 5'],
-	colors: ['#3bc0c3', '#6c757d', '#4489e4', '#d03f3f', '#edc755'],
+	colors: ['#0170C1', '#6c757d', '#4489e4', '#d03f3f', '#edc755'],
 	responsive: [
 		{
 			breakpoint: 600,
@@ -1459,7 +1459,7 @@ export const BasicPolarAreaOpt: ApexOptions = {
 	legend: {
 		position: 'bottom',
 	},
-	colors: ['#3bc0c3', '#6c757d', '#4489e4', '#d03f3f', '#edc755', '#33b0e0'],
+	colors: ['#0170C1', '#6c757d', '#4489e4', '#d03f3f', '#edc755', '#33b0e0'],
 	responsive: [
 		{
 			breakpoint: 480,
@@ -1598,7 +1598,7 @@ export const basicRadialBarChart: ApexOptions = {
 			},
 		},
 	},
-	colors: ['#3bc0c3'],
+	colors: ['#0170C1'],
 	series: [70],
 	labels: ['CRICKET'],
 }
@@ -1629,7 +1629,7 @@ export const multipleRadialBarOpts: ApexOptions = {
 			},
 		},
 	},
-	colors: ['#3bc0c3', '#4489e4', '#edc755', '#33b0e0'],
+	colors: ['#0170C1', '#4489e4', '#edc755', '#33b0e0'],
 	series: [44, 55, 67, 83],
 	labels: ['Apples', 'Oranges', 'Bananas', 'Berries'],
 }

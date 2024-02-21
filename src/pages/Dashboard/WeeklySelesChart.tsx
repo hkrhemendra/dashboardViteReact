@@ -40,7 +40,7 @@ const weeklyChartOpts: ApexOptions = {
 	dataLabels: {
 		enabled: false,
 	},
-	colors: ['#3bc0c3', '#1a2942', '#d1d7d973'],
+	colors: ['#0170C1', '#1a2942', '#d1d7d973'],
 	xaxis: {
 		categories: [
 			'Sunday',

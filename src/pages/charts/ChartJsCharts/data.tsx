@@ -9,7 +9,7 @@ const boundariesConfig: ChartConfiguration = {
 			{
 				label: 'Fully Rounded',
 				data: [12.5, -19.4, 14.3, -15.0, 10.8, -10.5],
-				borderColor: ['#3bc0c3', '#47ad77'],
+				borderColor: ['#0170C1', '#47ad77'],
 				backgroundColor: hexToRGB('#3e60d5', 0.3),
 				fill: false,
 			},
@@ -39,7 +39,7 @@ const boundariesConfig: ChartConfiguration = {
 	},
 }
 
-const datasetColors = ['#3bc0c3', '#4489e4', '#d03f3f', '#716cb0', '#f24f7c']
+const datasetColors = ['#0170C1', '#4489e4', '#d03f3f', '#716cb0', '#f24f7c']
 const datasetConfig: ChartConfiguration = {
 	type: 'line',
 	data: {
@@ -110,7 +110,7 @@ const datasetConfig: ChartConfiguration = {
 	},
 }
 
-const colors = ['#3bc0c3', '#4489e4']
+const colors = ['#0170C1', '#4489e4']
 const borderRadiusConfig: ChartConfiguration = {
 	type: 'bar',
 	data: {
@@ -373,7 +373,7 @@ const bubbleConfig: ChartConfiguration = {
 	},
 }
 
-const colors2 = ['#3bc0c3', '#4489e4', '#d03f3f', '#716cb0']
+const colors2 = ['#0170C1', '#4489e4', '#d03f3f', '#716cb0']
 const donutConfig: ChartConfiguration = {
 	type: 'doughnut',
 	data: {

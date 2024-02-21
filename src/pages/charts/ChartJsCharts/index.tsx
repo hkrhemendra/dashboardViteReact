@@ -73,7 +73,7 @@ const ChartjsCharts = () => {
 								<div className="mt-3 chartjs-chart" style={{ height: 320 }}>
 									<canvas
 										id="boundaries-example"
-										data-colors="#3bc0c3,#47ad77"
+										data-colors="#0170C1,#47ad77"
 									></canvas>
 								</div>
 							</div>
@@ -88,7 +88,7 @@ const ChartjsCharts = () => {
 								<div className="mt-3 chartjs-chart" style={{ height: 320 }}>
 									<canvas
 										id="dataset-example"
-										data-colors="#3bc0c3,#4489e4,#d03f3f,#716cb0, #f24f7c"
+										data-colors="#0170C1,#4489e4,#d03f3f,#716cb0, #f24f7c"
 									></canvas>
 								</div>
 							</div>
